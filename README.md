@@ -1,56 +1,48 @@
-# TenserGo-Assessement
+🍽️ Recipe Book Application
 Generate a Speech- to-Speech LLM Bot using technologies cv2, pyttsx3, speech_recognition, threading, time.
 
-# Speech-to-Speech LLM Bot
+# 📌 Project Overview
 
-This repository contains a Speech-to-Speech LLM bot that leverages computer vision, text-to-speech, and speech recognition to interact with users. The bot captures video and audio from the user, recognizes the spoken words, and responds by repeating the recognized words. The bot operates within a 3-second window to capture and process the input.
+The Recipe Book Application is a web-based platform that allows users to add, edit, and display recipes with images and ingredients. This interactive recipe manager utilizes HTML, CSS, JavaScript, and Local Storage, ensuring a seamless and user-friendly experience. The platform enables users to store their favorite recipes directly in their browser, eliminating the need for external databases.
 
 ## Features
 
-- **Speech Recognition:** The bot uses `speech_recognition` to capture and recognize spoken words from the user.
-- **Text-to-Speech:** The recognized words are converted into speech using `pyttsx3`, enabling the bot to respond verbally.
-- **Computer Vision:** The bot utilizes `cv2` (OpenCV) for capturing video from the user's camera, adding a visual aspect to the interaction.
-- **Threading:** The application runs the speech recognition and video capture in parallel, ensuring a smooth user experience.
+✅ Add Recipes - Users can enter recipe details, including the name, ingredients, and an image, which will be saved and displayed.
+✅ Edit Recipes - Users can modify existing recipes, ensuring details remain accurate and up-to-date.
+✅ Display Recipes - Recipes are presented in an organized format, showcasing images and a list of ingredients.
+✅ Persistent Storage - Recipes remain saved in the browser even after refreshing or closing the page.
 
-## Technologies Used
-- **Python**: The core programming language used.
-- **Streamlit**: For creating the UI in `app.py`.
-- **OpenCV (`cv2`)**: For video capture and processing.
-- **pyttsx3**: For text-to-speech conversion.
-- **SpeechRecognition (`speech_recognition`)**: For capturing and recognizing speech.
-- **Threading**: To run multiple tasks concurrently.
+🚀 How It Works
 
-## Installation
-1. Clone the repository:
-    ```bash
-    git clone https://github.com/ph-22416/speech-to-speech-llm-bot.git
-    cd speech-to-speech-llm-bot
-    ```
-2. Install the required dependencies:
-    ```bash
-    pip install speechrecognition pyttsx3 opencv-python pyaudio numpy
-    pip install streamlit
-    ```
-3. Run the application:
-    ```bash
-    streamlit run app.py
-    ```
+1️⃣ Open the application in a web browser.
+2️⃣ Enter recipe details (name, ingredients, image).
+3️⃣ Click "Add Recipe" to store it in the list.
+4️⃣ Edit or remove recipes as needed.
+5️⃣ Enjoy seamless access to your recipes anytime!
 
-## How It Works
-1. **UI Design (app.py)**: The user interface is created using Streamlit, where the speech recognition function is integrated and triggered.
+📂 Project Structure
+📁 Recipe-Book-App
+│── 📄 index.html        # Main HTML file
+│── 📄 style.css         # Stylesheet for UI design
+│── 📄 script.js         # JavaScript for interactivity
 
-2. **Speech Recognition (speech.py)**: The core logic for recognizing speech is implemented in `speech.py`. The function `recognize_speech()` captures the user's spoken words using `speech_recognition`. 
+## 🎯 Installation & Usage
+1️⃣ Clone the repository:
+//git clone https://github.com/your-username/Recipe-Book-Application.git.
+2️⃣ Navigate to the project directory:
+//cd Recipe-Book-Application
+3️⃣ Open the index.html file in any web browser.
+4️⃣ Start adding and managing recipes effortlessly.
 
-3. **Video Capture and Processing**: Using OpenCV (`cv2`), the bot opens a 3-second video window to capture the user's video input.
+📌 Future Enhancements
+🔹 Search Functionality - Quickly find recipes by name or ingredients.
+🔹 Category Filters - Organize recipes by cuisine or type.
+🔹 User Authentication - Secure recipes with user accounts
 
-4. **Text-to-Speech Response**: After recognizing the speech, the bot responds with a verbal confirmation of what it recognized, using `pyttsx3` for text-to-speech conversion.
+📜 License
+This project is open-source and available under the MIT License.
 
-5. **Threading for Concurrency**: The bot uses threading to manage speech recognition and video capture concurrently, ensuring that the tasks run smoothly without blocking each other.
+📧 Contact
+For queries or suggestions, feel free to reach out!
 
-## Example
-When the user speaks into their microphone, the bot will capture the video and audio, recognize the spoken words, and respond with:
-> "You said: [recognized words]"
-> and then response it. 
-
-## Contact
-For any questions or inquiries, please reach out via (priyanshichaudhary2015@gmail.com)  .
+📩 Email: priyanshichaudhary2015@gmail.com
