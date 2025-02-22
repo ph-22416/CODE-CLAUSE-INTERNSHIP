@@ -26,11 +26,15 @@ The Recipe Book Application is a web-based platform that allows users to add, ed
 │── 📄 script.js         # JavaScript for interactivity
 
 ## 🎯 Installation & Usage
+
 1️⃣ Clone the repository:
 //git clone https://github.com/your-username/Recipe-Book-Application.git.
+
 2️⃣ Navigate to the project directory:
-//cd Recipe-Book-Application
+cd Recipe-Book-Application
+
 3️⃣ Open the index.html file in any web browser.
+
 4️⃣ Start adding and managing recipes effortlessly.
 
 📌 Future Enhancements
@@ -43,5 +47,4 @@ This project is open-source and available under the MIT License.
 
 📧 Contact
 For queries or suggestions, feel free to reach out!
-
 📩 Email: priyanshichaudhary2015@gmail.com
