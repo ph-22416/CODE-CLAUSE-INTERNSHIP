@@ -1,5 +1,6 @@
 # 🍽️ Recipe Book Application
 
+
 ## 📌 Project Overview
 
 The Recipe Book Application is a web-based platform that allows users to add, edit, and display recipes with images and ingredients. This interactive recipe manager utilizes HTML, CSS, JavaScript, and Local Storage, ensuring a seamless and user-friendly experience. The platform enables users to store their favorite recipes directly in their browser, eliminating the need for external databases.
@@ -61,7 +62,8 @@ cd Recipe-Book-Application
 
 🔹 User Authentication - Secure recipes with user accounts
 
-## 📜 License- This project is open-source and available under the MIT License.
+## 📜 License
+This project is open-source and available under the MIT License.
 
 ## 📧 Contact
 📩 Email: priyanshichaudhary2015@gmail.com
