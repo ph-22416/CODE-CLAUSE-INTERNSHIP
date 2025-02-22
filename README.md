@@ -13,16 +13,23 @@ The Recipe Book Application is a web-based platform that allows users to add, ed
 ## Features
 
 ✅ Add Recipes - Users can enter recipe details, including the name, ingredients, and an image, which will be saved and displayed.
+
 ✅ Edit Recipes - Users can modify existing recipes, ensuring details remain accurate and up-to-date.
+
 ✅ Display Recipes - Recipes are presented in an organized format, showcasing images and a list of ingredients.
+
 ✅ Persistent Storage - Recipes remain saved in the browser even after refreshing or closing the page.
 
 🚀 How It Works
 
 1️⃣ Open the application in a web browser.
+
 2️⃣ Enter recipe details (name, ingredients, image).
+
 3️⃣ Click "Add Recipe" to store it in the list.
+
 4️⃣ Edit or remove recipes as needed.
+
 5️⃣ Enjoy seamless access to your recipes anytime!
 
 📂 Project Structure
@@ -47,7 +54,9 @@ cd Recipe-Book-Application
 📌 Future Enhancements
 
 🔹 Search Functionality - Quickly find recipes by name or ingredients.
+
 🔹 Category Filters - Organize recipes by cuisine or type.
+
 🔹 User Authentication - Secure recipes with user accounts
 
 📜 License- This project is open-source and available under the MIT License.
