@@ -1,4 +1,4 @@
-🍽️ Recipe Book Application
+_*🍽️ Recipe Book Application*_
 
 📌 Project Overview
 
@@ -36,7 +36,9 @@ The Recipe Book Application is a web-based platform that allows users to add, ed
 
 📁 Recipe-Book-App
 │── 📄 index.html        # Main HTML file
+
 │── 📄 style.css         # Stylesheet for UI design
+
 │── 📄 script.js         # JavaScript for interactivity
 
 ## 🎯 Installation & Usage
